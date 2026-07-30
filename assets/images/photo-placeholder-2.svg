@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">成都街头照片占位图</title><desc id="desc">一张等待替换的成都街头旅行照片卡片</desc>
+  <rect width="800" height="600" fill="#d5c6af"/>
+  <path d="M0 470 H800 V600 H0Z" fill="#a98d70"/>
+  <path d="M80 470 V190 H255 V470 M290 470 V125 H500 V470 M535 470 V220 H730 V470" fill="#705949"/>
+  <path d="M110 220 H225 M110 270 H225 M110 320 H225 M325 165 H465 M325 220 H465 M325 275 H465 M570 255 H695 M570 310 H695" stroke="#f5efe3" stroke-width="16"/>
+  <text x="50%" y="535" fill="#f5efe3" font-family="Georgia, serif" font-size="30" text-anchor="middle" letter-spacing="6">CHENGDU · 08.06</text>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">重庆夜景照片占位图</title><desc id="desc">一张等待替换的重庆洪崖洞旅行照片卡片</desc>
+  <rect width="800" height="600" fill="#2d2926"/>
+  <circle cx="570" cy="140" r="58" fill="#d6c9b2"/>
+  <path d="M0 460 L150 330 L250 410 L390 270 L530 420 L660 300 L800 400 V600 H0Z" fill="#5b4438"/>
+  <path d="M0 500 L165 370 L325 480 L460 355 L610 470 L800 340 V600 H0Z" fill="#8c302b"/>
+  <text x="50%" y="525" fill="#f5efe3" font-family="Georgia, serif" font-size="30" text-anchor="middle" letter-spacing="6">CHONGQING · 08.03</text>
+</svg>

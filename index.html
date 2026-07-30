@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f5efe3" />
+    <meta name="description" content="为8月重庆成都旅行准备的私人攻略，包含每日路线、景点、美食、交通和家庭出行提醒。" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="重庆成都7日旅行攻略｜观音桥出发版" />
+    <meta property="og:description" content="为8月重庆成都旅行准备的私人攻略，包含每日路线、景点、美食、交通和家庭出行提醒。" />
+    <meta property="og:image" content="assets/images/cover/chongqing-cover.jpg" />
+    <title>重庆成都7日旅行攻略｜观音桥出发版</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="app-header">
+      <nav class="top-nav" aria-label="主导航">
+        <a class="brand" href="#home"><span>CK</span> Trip Planner</a>
+        <div class="top-nav-links">
+          <a href="#daily-routes">路线</a><a href="#attractions">景点</a><a href="#food">美食</a><a href="#transport">交通</a>
+        </div>
+        <a class="nav-status" href="#hub">观音桥 · 8月</a>
+      </nav>
+    </header>
+
+    <main class="app-shell">
+      <section class="overview" id="home" aria-labelledby="page-title">
+        <div class="overview-heading">
+          <div><p class="section-label">PRIVATE ITINERARY · 2026</p><h1 id="page-title">重庆 × 成都<br /><span>7日旅行攻略</span></h1></div>
+          <p class="overview-date">08.03 — 08.10<br /><span>7 天 · 2 座城市</span></p>
+        </div>
+        <figure class="overview-cover"><img id="overview-cover-image" src="assets/images/cover/chongqing-cover.jpg" alt="重庆城市封面图" /></figure>
+        <aside class="quick-start-card" aria-labelledby="quick-start-title">
+          <div><p class="card-kicker">使用方式</p><h2 id="quick-start-title">把它当作当天的旅行助手</h2></div>
+          <ol><li>先查看当天路线</li><li>点击景点查看详细信息</li><li>出发前查看交通和提醒</li></ol>
+        </aside>
+        <div class="overview-grid">
+          <article class="stay-card"><div><p class="card-kicker">当前住宿</p><h2>重庆观音桥附近</h2><p>抵达日 19:00 · 江北机场<br />重庆段路线均从这里出发</p></div><span class="location-dot" aria-hidden="true"></span></article>
+          <article class="weather-summary"><p class="card-kicker">8月提醒</p><p>高温与阵雨并存<br /><strong>轻装、防晒、备雨具</strong></p><a href="#weather-title">查看完整提醒 →</a></article>
+        </div>
+        <div class="metric-grid" aria-label="旅行概览">
+          <div><strong>3</strong><span>重庆天数</span></div><div><strong>4</strong><span>成都天数</span></div><div><strong>11</strong><span>景点已整理</span></div><div><strong>8</strong><span>美食笔记</span></div>
+        </div>
+        <div class="overview-action"><p>今日建议：先选择当天路线，再按优先级筛选景点。</p><button class="primary-button" id="start-routes" type="button">开始规划 <span aria-hidden="true">→</span></button></div>
+      </section>
+
+      <section class="section weather-section" aria-labelledby="weather-title">
+        <div class="section-title-row"><div><p class="section-label">TRAVEL CONDITIONS</p><h2 id="weather-title">8月出行提醒</h2></div><p>提前准备，比临时应对更从容。</p></div>
+        <div class="weather-grid" id="weather-grid" aria-live="polite"></div>
+      </section>
+
+      <section class="section hub-section" id="hub" aria-labelledby="hub-title">
+        <div class="section-title-row"><div><p class="section-label">HOME BASE</p><h2 id="hub-title">从观音桥出发</h2></div><p>住宿位置已纳入重庆段路线。</p></div>
+        <div class="hub-layout"><div class="hub-card"><span class="hub-marker" aria-hidden="true"></span><div><p class="card-kicker">住宿中心</p><h3>重庆观音桥</h3><p>优先减少折返，白天与夜间行程更容易衔接。</p></div></div><ul class="hub-destinations" id="hub-destinations"></ul></div>
+      </section>
+
+      <section class="section daily-section" id="daily-routes" aria-labelledby="daily-title">
+        <div class="section-title-row"><div><p class="section-label">DAY PLANNER</p><h2 id="daily-title">每日路线</h2></div><p>选一天，查看时间、路线与交通建议。</p></div>
+        <div class="day-tabs" id="day-tabs" role="tablist" aria-label="每日路线"></div>
+        <div class="day-route-panel" id="day-route-panel" aria-live="polite"></div>
+      </section>
+
+      <section class="section attraction-section" id="attractions" aria-labelledby="attractions-title">
+        <div class="section-title-row"><div><p class="section-label">PLACE GUIDE</p><h2 id="attractions-title">景点资料库</h2></div><p>按优先级筛选，点开后查看完整到访信息。</p></div>
+        <div class="filter-row" id="priority-filters" aria-label="按景点优先级筛选"></div>
+        <div class="attraction-grid" id="attraction-grid" aria-live="polite"></div>
+      </section>
+
+      <section class="section food-section" id="food" aria-labelledby="food-title">
+        <div class="section-title-row"><div><p class="section-label">FOOD GUIDE</p><h2 id="food-title">美食安排</h2></div><p>把用餐融入当天路线。</p></div>
+        <div class="food-filters" id="food-filters" aria-label="按城市筛选美食"></div>
+        <div class="food-grid" id="food-grid" aria-live="polite"></div>
+      </section>
+
+      <section class="section transport-section" id="transport" aria-labelledby="transport-title">
+        <div class="section-title-row"><div><p class="section-label">GETTING AROUND</p><h2 id="transport-title">交通比较</h2></div><p>关键路线，提前选好更舒适的出行方式。</p></div>
+        <div class="transport-list" id="transport-list"></div>
+      </section>
+
+      <section class="section tips-section" id="tips" aria-labelledby="tips-title">
+        <div class="section-title-row"><div><p class="section-label">GOOD TO KNOW</p><h2 id="tips-title">出发前提醒</h2></div><p>行程参考，实际以当天情况为准。</p></div>
+        <div class="tips-grid" id="tips-grid"></div>
+      </section>
+
+      <section class="section memory-section" id="memories" aria-labelledby="memories-title">
+        <div class="section-title-row"><div><p class="section-label">AFTER THE TRIP</p><h2 id="memories-title">把攻略变成回忆</h2></div><p>旅行结束后，把本地占位图换成真实照片。</p></div>
+        <div class="photo-grid" id="memory-grid"></div>
+      </section>
+    </main>
+
+    <nav class="bottom-nav" aria-label="移动端导航"><a href="#daily-routes"><span>路线</span></a><a href="#attractions"><span>景点</span></a><a href="#food"><span>美食</span></a><a href="#attractions" aria-label="前往景点收藏入口"><span>收藏</span></a></nav>
+
+    <div class="modal-backdrop" id="details-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modal-title"><article class="details-modal-card"><button class="modal-close" id="modal-close" type="button" aria-label="关闭景点详情">×</button><div id="modal-content"></div></article></div>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>

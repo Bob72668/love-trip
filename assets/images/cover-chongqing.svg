@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">重庆城市封面图占位图</title><desc id="desc">用于首页的重庆城市照片本地占位图</desc>
+  <rect width="1200" height="900" fill="#2b2927"/>
+  <circle cx="890" cy="200" r="94" fill="#e8ddc8"/>
+  <path d="M0 690 L160 430 L295 610 L445 300 L625 650 L765 395 L980 620 L1200 455 V900 H0Z" fill="#573f35"/>
+  <path d="M0 745 L175 590 L320 705 L490 505 L645 730 L805 560 L975 725 L1200 565 V900 H0Z" fill="#8c302b"/>
+  <path d="M0 792 H1200" stroke="#f5efe3" stroke-width="12" stroke-dasharray="3 23"/>
+  <text x="600" y="830" fill="#f5efe3" font-family="Georgia,serif" font-size="34" text-anchor="middle" letter-spacing="9">CHONGQING · AUGUST 2026</text>
+</svg>
